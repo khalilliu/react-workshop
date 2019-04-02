@@ -1,0 +1,43 @@
+{
+  "name": "react-project-menu",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/core": "10.0.7",
+    "@reach/router": "1.2.1",
+    "classnames": "2.2.6",
+    "d3-ease": "1.0.5",
+    "history": "4.9.0",
+    "lodash.clamp": "4.0.3",
+    "path-to-regexp": "3.0.0",
+    "prop-types": "15.7.2",
+    "react": "16.8.2",
+    "react-call-return": "0.8.0",
+    "react-dom": "16.8.2",
+    "react-google-maps": "9.4.5",
+    "react-icons": "3.5.0",
+    "react-scripts": "2.0.3",
+    "react-spring": "8.0.7",
+    "react-transition-group": "2.7.1",
+    "react-use": "5.3.1",
+    "react-use-gestures": "0.1.2",
+    "react-with-gesture": "4.0.4",
+    "redux": "4.0.1",
+    "simple-cache-provider": "0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

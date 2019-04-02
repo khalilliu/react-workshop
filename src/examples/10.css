@@ -1,0 +1,163 @@
+.App {
+  color: hsl(240, 5%, 20%);
+  height: 100vh;
+  transition: background-color 300ms ease;
+  background-image: radial-gradient(
+    ellipse at center,
+    hsla(0, 100%, 100%, 0.5) 0%,
+    hsla(0, 100%, 100%, 0) 100%
+  );
+  padding-top: 80px;
+}
+
+.red-bg {
+  background-color: hsl(347, 84%, 60%);
+}
+
+.yellow-bg {
+  background-color: hsl(48, 100%, 50%);
+}
+
+.green-bg {
+  background-color: hsl(130, 65%, 57%);
+}
+
+.blue-bg {
+  background-color: hsl(199, 94%, 67%);
+}
+
+.red {
+  color: hsl(347, 84%, 60%);
+}
+
+.yellow {
+  color: hsl(48, 100%, 50%);
+}
+
+.green {
+  color: hsl(130, 65%, 57%);
+}
+
+.blue {
+  color: hsl(199, 94%, 67%);
+}
+
+.Tabs {
+  width: 500px;
+  margin: auto;
+  background: white;
+  box-shadow: 0px 10px 40px hsla(0, 0%, 0%, 0.25);
+}
+
+.tabs {
+  display: flex;
+  border-bottom: solid 2px rgb(231, 236, 238);
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  background: white;
+  text-align: center;
+  color: hsl(240, 5%, 60%);
+  font-size: 200%;
+  cursor: pointer;
+}
+
+.tab:hover {
+  color: hsl(240, 5%, 70%);
+}
+
+.tab.active {
+  /*color: hsl(199, 94%, 67%);*/
+}
+
+.tab:active {
+  transform: scale(0.95);
+}
+
+.panels {
+  background: rgb(244, 249, 252);
+  min-height: 300px;
+  padding: 20px;
+}
+
+.app-10 {
+  margin: auto;
+  display: flex;
+}
+
+.app-10 .block {
+  margin: 100px 50px;
+  border-radius: 4px;
+  flex: 1;
+  background: hsla(0, 0%, 100%, 0.75);
+  height: 400px;
+  padding: 20px;
+}
+
+.app-10 h2 {
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+
+.app-10 .select {
+  display: inline-block;
+  margin: 4px 0;
+  position: relative;
+}
+
+.app-10 .label2 {
+  background: hsla(200, 0%, 100%, 0.95);
+  border: 1px solid hsla(200, 0%, 0%, 0.2);
+  font: inherit;
+  color: black;
+  padding: 4px 8px;
+  cursor: default;
+}
+
+.app-10 .arrow {
+  float: right;
+  padding-left: 8px;
+  color: hsla(200, 0%, 0%, 0.5);
+}
+
+.app-10 .options {
+  outline: none;
+  border: solid 1px hsl(200, 0%, 70%);
+  overflow: hidden;
+  border-radius: 4px;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: -16px;
+  background: hsla(200, 0%, 95%, 0.95);
+  box-shadow: 2px 2px 8px hsla(200, 0%, 0%, 0.25);
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.app-10 .options.is-closed {
+  display: none;
+}
+
+.app-10 .option {
+  padding: 4px 24px;
+  cursor: default;
+  position: relative;
+}
+
+.app-10 .option.selected:before {
+  content: "✔︎";
+  position: absolute;
+  left: 7px;
+  top: 0.35em;
+  font-size: 75%;
+}
+
+/* .option.pre-selection { */
+.app-10 .option:hover {
+  background: hsl(200, 80%, 50%);
+  color: white;
+}

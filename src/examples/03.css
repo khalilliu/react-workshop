@@ -1,0 +1,17 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: hotpink;
+  border-radius: 50%;
+  cursor: -webkit-grab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  white-space: pre;
+}
+
+.circle:active {
+  cursor: -webkit-grabbing;
+}
